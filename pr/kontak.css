@@ -1,0 +1,73 @@
+form {
+    width: 400px;
+    margin: 0 auto;
+       
+}
+  
+p {
+    font-size: 18px;
+    color: #696565;
+    margin-left: 25px;
+}
+ 
+.contact-form{
+    width: 1000px;
+    height: 580px;
+    margin: 50px auto;
+    box-shadow: rgba(60,64,67,0.3) 0px 1px 2px 0px,
+    rgba(60,64,67,0.15) 0px 1px 3px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-left, .form-right{
+    width: 50%;
+    height: 100%;
+}
+.form-left
+{
+    background-color: rgb(229, 228, 216);
+    
+}
+input
+{
+    border-radius: 5px;
+    height: 23px;
+    padding: 0px;
+    margin-left: 25px;
+
+}
+
+input[type="submit"] {
+    width: 90px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    background-color: #cb9f8f;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+input[type="submit"]:hover {
+    background-color: #bc8980;
+}
+
+.form-right{
+    background-image: url("../slikeP/poz.jpg");
+    background-size: cover;
+}
+#vratiSe {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: antiquewhite;
+    border-radius:20px ;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}

@@ -1,0 +1,40 @@
+#kupon {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+#kupon a {
+    background-color: #ff6600; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px;
+    display: inline-block; 
+}
+
+#kupon a:hover {
+    background-color: #cc5500;
+}
+#vratiSe {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: antiquewhite;
+    border-radius:20px ;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#tekst {
+    font-family: Arial, sans-serif; 
+    font-size: 18px; 
+    line-height: 1.5; 
+    color: #333;
+    margin:40px 20px; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+

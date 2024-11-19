@@ -1,0 +1,169 @@
+.marquee {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0px 33px;
+}
+
+.navbar .logo{
+    width: 150px;
+    margin-left: 20px;
+}
+
+.nav-menu .nav-item{
+    display: inline;
+    margin: 10px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.nav-menu .nav-item a{
+    text-decoration: none;
+    color: rgb(99, 65, 20);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.nav-menu .nav-item a:hover {
+    background-color: burlywood;
+}
+
+#pretraga {
+    text-align: center; 
+    margin-left: 30px;
+}
+
+#pretraga form {
+    display: inline-block; 
+}
+
+#pretraga input[type="text"] {
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+}
+
+#pretraga button {
+    width: auto; 
+    padding: 10px 15px;
+    background-color: burlywood;
+    color: black;
+    border: 1px solid;
+    border-radius:15px; 
+    cursor: pointer;
+}
+
+#pretraga button:hover {
+    background-color: #6d6459;
+}
+
+#knjige {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
+    align-items: center; 
+    justify-items: center; 
+    padding:20px; 
+}
+
+.card {
+    width: 200px;
+    height: 300px; 
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, .2);
+    border-radius: 25px;
+    overflow: hidden; 
+}
+
+.card img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.card img :hover
+{
+box-shadow: #6d6459;
+}
+
+button {
+    margin-top: 20px; 
+    padding: 10px 20px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #6d6459;
+}
+
+.marki{
+    font-size: 20px;
+    background: burlywood;
+    color: white;
+}
+
+.rez{
+    position: center;
+    border: 2px solid burlywood;
+    color: black;
+    width: 40%;
+    margin:0 auto;
+
+}
+
+footer {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: justify;
+}
+
+.contact-info {
+    flex: 1; 
+    color: burlywood;
+}
+
+.visit-info {
+    text-align: justify; 
+    font-size: 14px; 
+    color: burlywood;
+
+}
